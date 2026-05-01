@@ -65,11 +65,10 @@ console.log(typeof heros); //object, because arrays are objects in JavaScript
 
 
 //Object
-  {
+const obj = {
     name: "John",
     age: 30
 };
-
 
 //Functions
 const myFunction = function() {
@@ -80,9 +79,32 @@ const myFunction = function() {
 //BigInt
 console.log(typeof bigNumber);
 
-const bigNumber = 1234567890123456789012345678901234567890n
+//bigint, because it is a primitive data type in JavaScript  
 
 
 
 //Array , Object , Function are all of type object in JavaScript, because they are all reference data types.
+
+//******************************************************************************************************************************************
+
+
+let myYoutubename ="ZaidUllah"
+
+let anothername = myYoutubename
+ anothername = "ZaidUllah123"
+console.log(anothername);
+
+//In the above code, we have assigned the value of myYoutubename to anothername. Since strings are primitive data types, anothername will hold a copy of the value of myYoutubename. Therefore, if we change the value of myYoutubename, it will not affect anothername.
+
+let userOne ={
+    email: "user@example.com",
+    upi: "user@upi"
+}
+
+let userTwo = userOne
+
+userTwo.email= "zaidullah@gmail.com"
+
+console.log(userOne.email); //In the above code, we have assigned the value of userOne to userTwo. Since objects are reference data types, userTwo will hold a reference to the same object in memory as userOne. Therefore, if we change the value of userTwo.email, it will also change the value of userOne.email, because both variables are referencing the same object in memory.     
+console.log(userTwo.email); //In the above code, we have assigned the value of userOne to userTwo. Since objects are reference data types, userTwo will hold a reference to the same object in memory as userOne. Therefore, if we change the value of userTwo.email, it will also change the value of userOne.email, because both variables are referencing the same object in memory. 
 

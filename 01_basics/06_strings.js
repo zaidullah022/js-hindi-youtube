@@ -28,4 +28,9 @@ console.log(newStringOne.trim());
 
 
 const url = "https://www.youtube.com/channel/UCWv7vMbMWH4-V0ZXdmDpPBA"
-console.log(url.replace("https://www.youtube.com/channel/",""));
+console.log(url.replace("https://www.youtube.com/channel/","ZaidChannel/"));
+
+console.log(url.includes('youtube'))
+console.log(url.includes('ZaidChannel'))
+
+console.log(gameName.split('t'  ));
